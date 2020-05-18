@@ -4,11 +4,8 @@
 
 .corpo {
   font-family: Helvetica;
-  margin: 8px;
-}
-
-.corpo , span {
   font-weight: bold;
+  margin: 8px;
 }
 
 header {
@@ -36,6 +33,11 @@ p {
   font-weight: normal;
 }
 
+span {
+  color: blue;
+  font-weight: bold;
+}
+
 .brushes {
   background-color: mediumspringgreen;
 }
@@ -47,7 +49,3 @@ p {
 .paint {
   background-color: skyblue;
 }
-
-/* img {
-  margin-bottom: 15px;
-} */
