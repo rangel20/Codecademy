@@ -2,7 +2,8 @@ const getUserChoice = userInput => {
   userInput = userInput.toLowerCase();
   return (userInput === 'rock' ||
     userInput === 'paper' || 
-    userInput === 'scissors') ? userInput : console.log('Invalid input!');
+    userInput === 'scissors' ||
+    userInput === 'bomb') ? userInput : console.log('Invalid input!');
 };
 
 const getComputerChoice = () => {
@@ -11,5 +12,20 @@ const getComputerChoice = () => {
 };
 
 const determineWinner = (userChoice, computerChoice) => {
+  if (userChoice === 'bomb') return 'You won!'
   if (userChoice === computerChoice) return 'The game is a tie!';
+  if (userChoice === 'rock')
+    return (computerChoice === 'paper') ? 'The computer won!': 'You won!';
+  if (userChoice === 'paper')
+    return (computerChoice === 'scissors') ? 'The computer won!': 'You won!';
+  if (userChoice === 'scissors')
+    return (computerChoice === 'rock') ? 'The computer won!': 'You won!';
 };
+
+const playGame = () => {
+  const userChoice = getUserChoice('rock');
+  const computerChoice = getComputerChoice();
+  console.log(determineWinner(userChoice, computerChoice));
+};
+
+playGame(); // This runs the game.
