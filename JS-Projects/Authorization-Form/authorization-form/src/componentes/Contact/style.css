@@ -1,0 +1,12 @@
+div#authorization {
+  border: 1px solid black;
+  margin: auto;
+  text-align: center;
+  margin-top: 200px;
+  width: 70%;
+}
+
+li {
+  list-style: none;
+  list-style-position: inside;
+}
