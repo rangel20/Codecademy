@@ -50,6 +50,7 @@ nav a {
   background-image: url('https://s3.amazonaws.com/codecademy-content/courses/web-101/unit-6/htmlcss1-img_burgerphoto.jpeg');
   background-position: center;
   background-size: cover;
+  height: 320px;
 }
 
 .header h1 {
@@ -59,6 +60,8 @@ nav a {
   font-size: 40px;
   font-weight: 300;
   line-height: 40px;
+  margin: 0 auto;
+  padding: 20px;
   width: 68%;
 }
 
@@ -80,10 +83,14 @@ nav a {
 /* Content Button */
 
 .button {
+  border: 1px solid blue;
   border-radius: 4px;
   color: #05a8aa;
   display: block;
   font-weight: 700;
+  margin: 40px auto;
+  padding: 20px;
+  width: 200px;
 }
 
 .button:hover {
@@ -95,12 +102,16 @@ nav a {
 /* Content Nutrition */
 
 ul.nutrition {
+  padding: 20px;
 }
 
 ul.nutrition li {
   display: inline-block;
   background-color: #05a8aa;
   list-style: none;
+  margin-bottom: 3px;
+  padding: 10px 20px;
+  width: 200px;
 }
 
 .nutrition .category {
