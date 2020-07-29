@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.corpo {
+  height: 150vh;
+  margin: auto;
+  padding: 10px;
+  width: 80%;
+}
+
+.titulo {
+  margin: 20px 0;
+}
+
+.container {
+  border: 1px solid black;
+  margin: 12px 0;
+  padding: 8px;
+}
+
+.container-title {
+  margin: 25px 0 35px;
+}
+
+.color-container {}
+
+.color-panel {
+  background-color: #5d386b;
+  color: white;
+}
+
+.color-panel:nth-child(2) {
+  background-color: #554971;
+}
+
+.color-panel:nth-child(3) {
+  background-color: #63768d;
+}
+
+.color-panel:nth-child(4) {
+  background-color: #8ac6d0;
+  color: rgb(32, 32, 32);
+}
+
+.color-panel:last-child {
+  background-color: #b8f3ff;
+  color: rgb(15, 15, 15);
+}
