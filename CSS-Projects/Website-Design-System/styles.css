@@ -17,18 +17,30 @@
 .container {
   border: 1px solid black;
   margin: 12px 0;
-  padding: 8px;
+  padding: 15px;
 }
 
 .container-title {
   margin: 25px 0 35px;
 }
 
-.color-container {}
+.color-container {
+  display: flex;
+  flex-wrap: wrap;
+}
 
 .color-panel {
   background-color: #5d386b;
   color: white;
+  margin-bottom: 25px;
+  margin-right: 7px;
+  padding: 25px;
+  width: 25%;
+}
+
+.color-panel p {
+  padding: 10px;
+  text-align: center;
 }
 
 .color-panel:nth-child(2) {
