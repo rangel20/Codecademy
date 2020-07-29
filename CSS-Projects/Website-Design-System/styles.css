@@ -1,0 +1,119 @@
+@font-face {
+  font-family: 'Source Code Pro';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Source Code Pro Italic'), local('SourceCodePro-It'),
+    url(https://fonts.gstatic.com/s/sourcecodepro/v11/HI_QiYsKILxRpg3hIP6sJ7fM7PqlONvUlMI.woff2)
+      format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F,
+    U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: 'Source Code Pro';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Source Code Pro Regular'), local('SourceCodePro-Regular'),
+    url(https://fonts.gstatic.com/s/sourcecodepro/v11/HI_SiYsKILxRpg3hIP6sJ7fM7PqlPevW.woff2)
+      format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F,
+    U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: 'Source Code Pro';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: local('Source Code Pro Bold'), local('SourceCodePro-Bold'),
+    url(https://fonts.gstatic.com/s/sourcecodepro/v11/HI_XiYsKILxRpg3hIP6sJ7fM7Pqths7Ds-cq.woff2)
+      format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F,
+    U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.corpo {
+  height: 150vh;
+  margin: auto;
+  padding: 10px;
+  width: 80%;
+}
+
+.titulo {
+  margin: 20px 0;
+}
+
+.container {
+  border: 1px solid black;
+  margin: 12px 0;
+  padding: 15px;
+}
+
+.container-title {
+  margin: 25px 0 35px;
+}
+
+.content-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.color-panel {
+  background-color: #5d386b;
+  color: white;
+  margin-bottom: 25px;
+  margin-right: 7px;
+  padding: 25px;
+  width: 25%;
+}
+
+.color-panel p {
+  padding: 10px;
+  text-align: center;
+}
+
+.color-panel:nth-child(2) {
+  background-color: #554971;
+}
+
+.color-panel:nth-child(3) {
+  background-color: #63768d;
+}
+
+.color-panel:nth-child(4) {
+  background-color: #8ac6d0;
+  color: rgb(32, 32, 32);
+}
+
+.color-panel:last-child {
+  background-color: #b8f3ff;
+  color: rgb(15, 15, 15);
+}
+
+.font-panel:first-child {
+  font-family: 'Source Code Pro';
+  line-height: 32px;
+  width: 50%;
+  word-spacing: 5px;
+}
+
+.font-panel:last-child {
+  font-family: Poppins;
+}
+
+.font-panel:nth-child(2) {
+  font-family: 'Nunito Sans';
+}
+
+.font-panel p:first-child {
+  font-size: 16pt;
+  margin-bottom: 9px;
+  text-decoration: underline;
+}
