@@ -44,20 +44,21 @@ body {
 }
 
 .corpo {
-  background-color: #b8f3ff;
+  background-color: #8ac6d0;
   font-family: Helvetica;
   margin: auto;
-  padding: 70px;
+  padding: 70px 70px 0;
   width: 80%;
 }
 
 .titulo {
+  color: #554971;
   font-size: 35px;
   margin: 20px 0;
 }
 
 .container {
-  background-color: #8ac6d0;
+  background-color: #b8f3ff;
   border: 1px solid black;
   color: #5d386b;
   line-height: 2em;
@@ -161,4 +162,13 @@ body {
 
 .text-panel ul {
   list-style-position: inside;
+}
+
+.foot {
+  background-color: #5d386b;
+  color: white;
+  font-family: 'Poppins';
+  font-size: 25px;
+  padding: 40px;
+  text-align: center;
 }
